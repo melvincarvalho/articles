@@ -1,0 +1,342 @@
+{
+    "map": {
+        "@_version": "freeplane 1.7.0",
+        "node": {
+            "@_TEXT": "countdown-timer-react-hooks",
+            "@_FOLDED": false,
+            "@_ID": "ID_1831615648",
+            "@_CREATED": 1569272472516,
+            "@_MODIFIED": 1574669245908,
+            "@_ICON_SIZE": "20.0 pt",
+            "@_LINK": "index.mm",
+            "@_STYLE": "oval",
+            "icon": {
+                "@_BUILTIN": "bookmark"
+            },
+            "font": {
+                "@_SIZE": 18
+            },
+            "hook": [
+                {
+                    "@_NAME": "MapStyle",
+                    "properties": {
+                        "@_edgeColorConfiguration": "#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff",
+                        "@_fit_to_viewport": false
+                    },
+                    "map_styles": {
+                        "stylenode": {
+                            "@_LOCALIZED_TEXT": "styles.root_node",
+                            "@_STYLE": "oval",
+                            "@_UNIFORM_SHAPE": true,
+                            "@_VGAP_QUANTITY": "24.0 pt",
+                            "font": {
+                                "@_SIZE": 24
+                            },
+                            "stylenode": [
+                                {
+                                    "@_LOCALIZED_TEXT": "styles.predefined",
+                                    "@_POSITION": "right",
+                                    "@_STYLE": "bubble",
+                                    "stylenode": [
+                                        {
+                                            "@_LOCALIZED_TEXT": "default",
+                                            "@_ICON_SIZE": "12.0 pt",
+                                            "@_COLOR": "#000000",
+                                            "@_STYLE": "fork",
+                                            "font": {
+                                                "@_NAME": "SansSerif",
+                                                "@_SIZE": 10,
+                                                "@_BOLD": false,
+                                                "@_ITALIC": false
+                                            }
+                                        },
+                                        {
+                                            "@_LOCALIZED_TEXT": "defaultstyle.details"
+                                        },
+                                        {
+                                            "@_LOCALIZED_TEXT": "defaultstyle.attributes",
+                                            "font": {
+                                                "@_SIZE": 9
+                                            }
+                                        },
+                                        {
+                                            "@_LOCALIZED_TEXT": "defaultstyle.note",
+                                            "@_COLOR": "#000000",
+                                            "@_BACKGROUND_COLOR": "#ffffff",
+                                            "@_TEXT_ALIGN": "LEFT"
+                                        },
+                                        {
+                                            "@_LOCALIZED_TEXT": "defaultstyle.floating",
+                                            "edge": {
+                                                "@_STYLE": "hide_edge"
+                                            },
+                                            "cloud": {
+                                                "@_COLOR": "#f0f0f0",
+                                                "@_SHAPE": "ROUND_RECT"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "@_LOCALIZED_TEXT": "styles.user-defined",
+                                    "@_POSITION": "right",
+                                    "@_STYLE": "bubble",
+                                    "stylenode": [
+                                        {
+                                            "@_LOCALIZED_TEXT": "styles.topic",
+                                            "@_COLOR": "#18898b",
+                                            "@_STYLE": "fork",
+                                            "font": {
+                                                "@_NAME": "Liberation Sans",
+                                                "@_SIZE": 10,
+                                                "@_BOLD": true
+                                            }
+                                        },
+                                        {
+                                            "@_LOCALIZED_TEXT": "styles.subtopic",
+                                            "@_COLOR": "#cc3300",
+                                            "@_STYLE": "fork",
+                                            "font": {
+                                                "@_NAME": "Liberation Sans",
+                                                "@_SIZE": 10,
+                                                "@_BOLD": true
+                                            }
+                                        },
+                                        {
+                                            "@_LOCALIZED_TEXT": "styles.subsubtopic",
+                                            "@_COLOR": "#669900",
+                                            "font": {
+                                                "@_NAME": "Liberation Sans",
+                                                "@_SIZE": 10,
+                                                "@_BOLD": true
+                                            }
+                                        },
+                                        {
+                                            "@_LOCALIZED_TEXT": "styles.important",
+                                            "icon": {
+                                                "@_BUILTIN": "yes"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "@_LOCALIZED_TEXT": "styles.AutomaticLayout",
+                                    "@_POSITION": "right",
+                                    "@_STYLE": "bubble",
+                                    "stylenode": [
+                                        {
+                                            "@_LOCALIZED_TEXT": "AutomaticLayout.level.root",
+                                            "@_COLOR": "#000000",
+                                            "@_STYLE": "oval",
+                                            "@_SHAPE_HORIZONTAL_MARGIN": "10.0 pt",
+                                            "@_SHAPE_VERTICAL_MARGIN": "10.0 pt",
+                                            "font": {
+                                                "@_SIZE": 18
+                                            }
+                                        },
+                                        {
+                                            "@_LOCALIZED_TEXT": "AutomaticLayout.level,1",
+                                            "@_COLOR": "#0033ff",
+                                            "font": {
+                                                "@_SIZE": 16
+                                            }
+                                        },
+                                        {
+                                            "@_LOCALIZED_TEXT": "AutomaticLayout.level,2",
+                                            "@_COLOR": "#00b439",
+                                            "font": {
+                                                "@_SIZE": 14
+                                            }
+                                        },
+                                        {
+                                            "@_LOCALIZED_TEXT": "AutomaticLayout.level,3",
+                                            "@_COLOR": "#990000",
+                                            "font": {
+                                                "@_SIZE": 12
+                                            }
+                                        },
+                                        {
+                                            "@_LOCALIZED_TEXT": "AutomaticLayout.level,4",
+                                            "@_COLOR": "#111111",
+                                            "font": {
+                                                "@_SIZE": 10
+                                            }
+                                        },
+                                        {
+                                            "@_LOCALIZED_TEXT": "AutomaticLayout.level,5"
+                                        },
+                                        {
+                                            "@_LOCALIZED_TEXT": "AutomaticLayout.level,6"
+                                        },
+                                        {
+                                            "@_LOCALIZED_TEXT": "AutomaticLayout.level,7"
+                                        },
+                                        {
+                                            "@_LOCALIZED_TEXT": "AutomaticLayout.level,8"
+                                        },
+                                        {
+                                            "@_LOCALIZED_TEXT": "AutomaticLayout.level,9"
+                                        },
+                                        {
+                                            "@_LOCALIZED_TEXT": "AutomaticLayout.level,10"
+                                        },
+                                        {
+                                            "@_LOCALIZED_TEXT": "AutomaticLayout.level,11"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "@_NAME": "AutomaticEdgeColor",
+                    "@_COUNTER": 5,
+                    "@_RULE": "ON_BRANCH_CREATION"
+                }
+            ],
+            "node": [
+                {
+                    "@_TEXT": "Summary",
+                    "@_POSITION": "right",
+                    "@_ID": "ID_1226961462",
+                    "@_CREATED": 1570979963389,
+                    "@_MODIFIED": 1570980209554,
+                    "@_COLOR": "#3333ff",
+                    "icon": {
+                        "@_BUILTIN": "wizard"
+                    },
+                    "font": {
+                        "@_SIZE": 11,
+                        "@_BOLD": true
+                    },
+                    "edge": {
+                        "@_COLOR": "#0000ff"
+                    },
+                    "node": {
+                        "@_TEXT": "Also, with some major holidays as well as the New Year approaching, &#x2018;tis the season for building a countdown timer!",
+                        "@_ID": "ID_1869070715",
+                        "@_CREATED": 1574669488909,
+                        "@_MODIFIED": 1574669488909
+                    }
+                },
+                {
+                    "@_TEXT": "Details",
+                    "@_POSITION": "right",
+                    "@_ID": "ID_120250381",
+                    "@_CREATED": 1570979967089,
+                    "@_MODIFIED": 1570980228711,
+                    "icon": {
+                        "@_BUILTIN": "list"
+                    },
+                    "edge": {
+                        "@_COLOR": "#00ff00"
+                    },
+                    "font": {
+                        "@_BOLD": true
+                    },
+                    "node": [
+                        {
+                            "@_TEXT": "Getting Started",
+                            "@_ID": "ID_1518855550",
+                            "@_CREATED": 1574669507787,
+                            "@_MODIFIED": 1574669511470
+                        },
+                        {
+                            "@_TEXT": "Calculating How Much Time is Left",
+                            "@_ID": "ID_962556769",
+                            "@_CREATED": 1574669518222,
+                            "@_MODIFIED": 1574669547461
+                        },
+                        {
+                            "@_TEXT": "Hooking Up the State and Effect",
+                            "@_ID": "ID_1580346473",
+                            "@_CREATED": 1574669534349,
+                            "@_MODIFIED": 1574669542630
+                        },
+                        {
+                            "@_TEXT": "Displaying the Time Left",
+                            "@_ID": "ID_1223853790",
+                            "@_CREATED": 1574669553431,
+                            "@_MODIFIED": 1574669557348
+                        },
+                        {
+                            "@_TEXT": "Putting it All Together",
+                            "@_ID": "ID_1848906989",
+                            "@_CREATED": 1574669562947,
+                            "@_MODIFIED": 1574669568081
+                        }
+                    ]
+                },
+                {
+                    "@_TEXT": "links",
+                    "@_POSITION": "left",
+                    "@_ID": "ID_808607355",
+                    "@_CREATED": 1570968728188,
+                    "@_MODIFIED": 1570968728190,
+                    "icon": {
+                        "@_BUILTIN": "attach"
+                    },
+                    "edge": {
+                        "@_COLOR": "#00007c"
+                    },
+                    "node": [
+                        {
+                            "@_TEXT": "countdown-timer-react-hooks",
+                            "@_ID": "ID_147800645",
+                            "@_CREATED": 1574669160421,
+                            "@_MODIFIED": 1574669395721,
+                            "@_LINK": "https://alligator.io/react/countdown-timer-react-hooks/"
+                        },
+                        {
+                            "@_TEXT": "demo",
+                            "@_ID": "ID_1605438661",
+                            "@_CREATED": 1574669594439,
+                            "@_MODIFIED": 1574669598330,
+                            "@_LINK": "https://codesandbox.io/s/funny-sinoussi-howyc"
+                        }
+                    ]
+                },
+                {
+                    "@_TEXT": "docs",
+                    "@_POSITION": "left",
+                    "@_ID": "ID_1100215200",
+                    "@_CREATED": 1570969039178,
+                    "@_MODIFIED": 1570980265221,
+                    "icon": {
+                        "@_BUILTIN": "folder"
+                    },
+                    "edge": {
+                        "@_COLOR": "#ff00ff"
+                    },
+                    "node": {
+                        "@_TEXT": "introduction-to-react-hooks",
+                        "@_ID": "ID_1510512159",
+                        "@_CREATED": 1574669378226,
+                        "@_MODIFIED": 1574669417851,
+                        "@_LINK": "https://alligator.io/react/react-hooks/"
+                    }
+                },
+                {
+                    "@_TEXT": "tags",
+                    "@_POSITION": "left",
+                    "@_ID": "ID_466759422",
+                    "@_CREATED": 1570968754383,
+                    "@_MODIFIED": 1571340239144,
+                    "icon": {
+                        "@_BUILTIN": "hashtag"
+                    },
+                    "edge": {
+                        "@_COLOR": "#007c00"
+                    },
+                    "node": {
+                        "@_TEXT": "#react",
+                        "@_ID": "ID_726822941",
+                        "@_CREATED": 1574669215834,
+                        "@_MODIFIED": 1574669360331
+                    }
+                }
+            ]
+        }
+    }
+}
