@@ -281,7 +281,10 @@
                                     "@_TEXT": "The first line pulls out timeLeft which will carry our time left object of intervals and provide us with a method to set the state. On component load, the timeLeft value is set to the current time left value.&#xa;&#xa;The useEffect line is what updates the amount of time remaining. Every time that timeLeft is updated in the state, the useEffect fires. Every time that fires, we set a timer for 1 second (or 1,000ms) which after that time has elapsed, will update the time left.&#xa;&#xa;The cycle will continue every second thereafter.",
                                     "@_ID": "ID_258451495",
                                     "@_CREATED": 1574670191889,
-                                    "@_MODIFIED": 1574670193860
+                                    "@_MODIFIED": 1574670401448,
+                                    "font": {
+                                        "@_BOLD": true
+                                    }
                                 },
                                 {
                                     "@_TEXT": "const [timeLeft, setTimeLeft] = useState(calculateTimeLeft());&#xa;&#xa;useEffect(() =&gt; {&#xa;  setTimeout(() =&gt; {&#xa;    setTimeLeft(calculateTimeLeft());&#xa;  }, 1000);&#xa;});",
@@ -296,12 +299,23 @@
                             "@_ID": "ID_1223853790",
                             "@_CREATED": 1574669553431,
                             "@_MODIFIED": 1574669557348,
-                            "node": {
-                                "@_TEXT": "const timerComponents = [];&#xa;&#xa;Object.keys(timeLeft).forEach(interval =&gt; {&#xa;  if (!timeLeft[interval]) {&#xa;    return;&#xa;  }&#xa;&#xa;  timerComponents.push(&#xa;    &lt;span&gt;&#xa;      {timeLeft[interval]} {interval}{&quot; &quot;}&#xa;    &lt;/span&gt;&#xa;  );&#xa;});",
-                                "@_ID": "ID_1792001186",
-                                "@_CREATED": 1574670222556,
-                                "@_MODIFIED": 1574670223876
-                            }
+                            "node": [
+                                {
+                                    "@_TEXT": "Now that we have a working hook that holds the time left as an object, and is being updated every second, now we can build out our display components.&#xa;&#xa;To do so, we&#x2019;re going to loop through the properties of the timeLeft object and add an element to our components array. Only if the timer interval has a value above zero, that is:",
+                                    "@_ID": "ID_1880533662",
+                                    "@_CREATED": 1574670394247,
+                                    "@_MODIFIED": 1574670399296,
+                                    "font": {
+                                        "@_BOLD": true
+                                    }
+                                },
+                                {
+                                    "@_TEXT": "const timerComponents = [];&#xa;&#xa;Object.keys(timeLeft).forEach(interval =&gt; {&#xa;  if (!timeLeft[interval]) {&#xa;    return;&#xa;  }&#xa;&#xa;  timerComponents.push(&#xa;    &lt;span&gt;&#xa;      {timeLeft[interval]} {interval}{&quot; &quot;}&#xa;    &lt;/span&gt;&#xa;  );&#xa;});",
+                                    "@_ID": "ID_1792001186",
+                                    "@_CREATED": 1574670222556,
+                                    "@_MODIFIED": 1574670223876
+                                }
+                            ]
                         },
                         {
                             "@_TEXT": "Putting it All Together",
@@ -319,8 +333,11 @@
                                     "@_TEXT": "demo",
                                     "@_ID": "ID_1381131086",
                                     "@_CREATED": 1574669594439,
-                                    "@_MODIFIED": 1574669598330,
-                                    "@_LINK": "https://codesandbox.io/s/funny-sinoussi-howyc"
+                                    "@_MODIFIED": 1574670409414,
+                                    "@_LINK": "https://codesandbox.io/s/funny-sinoussi-howyc",
+                                    "font": {
+                                        "@_BOLD": true
+                                    }
                                 }
                             ]
                         }

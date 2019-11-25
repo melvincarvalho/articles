@@ -16,6 +16,10 @@
 <#ID_1047162089> <urn:string:child> <ID_1047162089> .
 <#ID_1223853790> <urn:string:@_TEXT> """Displaying the Time Left""" .
 <#ID_1223853790> <urn:string:child> <ID_1223853790> .
+<#ID_1880533662> <urn:string:@_TEXT> """Now that we have a working hook that holds the time left as an object, and is being updated every second, now we can build out our display components.&#xa;&#xa;To do so, we&#x2019;re going to loop through the properties of the timeLeft object and add an element to our components array. Only if the timer interval has a value above zero, that is:""" .
+<#ID_1880533662> <urn:string:child> <ID_1880533662> .
+<#ID_1792001186> <urn:string:@_TEXT> """const timerComponents = [];&#xa;&#xa;Object.keys(timeLeft).forEach(interval =&gt; {&#xa;  if (!timeLeft[interval]) {&#xa;    return;&#xa;  }&#xa;&#xa;  timerComponents.push(&#xa;    &lt;span&gt;&#xa;      {timeLeft[interval]} {interval}{&quot; &quot;}&#xa;    &lt;/span&gt;&#xa;  );&#xa;});""" .
+<#ID_1792001186> <urn:string:child> <ID_1792001186> .
 <#ID_1848906989> <urn:string:@_TEXT> """Putting it All Together""" .
 <#ID_1848906989> <urn:string:child> <ID_1848906989> .
 <#ID_1466101325> <urn:string:@_TEXT> """return (&#xa;  &lt;div&gt;&#xa;    {timerComponents.length ? timerComponents : &lt;span&gt;Time&apos;s up!&lt;/span&gt;}&#xa;  &lt;/div&gt;&#xa;);""" .

@@ -85,15 +85,22 @@
 <node TEXT="const calculateTimeLeft = () =&gt; {&#xa;  const difference = +new Date(&quot;2020-01-01&quot;) - +new Date();&#xa;  let timeLeft = {};&#xa;&#xa;  if (difference &gt; 0) {&#xa;    timeLeft = {&#xa;      days: Math.floor(difference / (1000 * 60 * 60 * 24)),&#xa;      hours: Math.floor((difference / (1000 * 60 * 60)) % 24),&#xa;      minutes: Math.floor((difference / 1000 / 60) % 60),&#xa;      seconds: Math.floor((difference / 1000) % 60)&#xa;    };&#xa;  }&#xa;&#xa;  return timeLeft;&#xa;};" ID="ID_1756193470" CREATED="1574670114240" MODIFIED="1574670115971"/>
 </node>
 <node TEXT="Hooking Up the State and Effect" ID="ID_1580346473" CREATED="1574669534349" MODIFIED="1574669542630">
-<node TEXT="The first line pulls out timeLeft which will carry our time left object of intervals and provide us with a method to set the state. On component load, the timeLeft value is set to the current time left value.&#xa;&#xa;The useEffect line is what updates the amount of time remaining. Every time that timeLeft is updated in the state, the useEffect fires. Every time that fires, we set a timer for 1 second (or 1,000ms) which after that time has elapsed, will update the time left.&#xa;&#xa;The cycle will continue every second thereafter." ID="ID_258451495" CREATED="1574670191889" MODIFIED="1574670193860"/>
+<node TEXT="The first line pulls out timeLeft which will carry our time left object of intervals and provide us with a method to set the state. On component load, the timeLeft value is set to the current time left value.&#xa;&#xa;The useEffect line is what updates the amount of time remaining. Every time that timeLeft is updated in the state, the useEffect fires. Every time that fires, we set a timer for 1 second (or 1,000ms) which after that time has elapsed, will update the time left.&#xa;&#xa;The cycle will continue every second thereafter." ID="ID_258451495" CREATED="1574670191889" MODIFIED="1574670401448">
+<font BOLD="true"/>
+</node>
 <node TEXT="const [timeLeft, setTimeLeft] = useState(calculateTimeLeft());&#xa;&#xa;useEffect(() =&gt; {&#xa;  setTimeout(() =&gt; {&#xa;    setTimeLeft(calculateTimeLeft());&#xa;  }, 1000);&#xa;});" ID="ID_1047162089" CREATED="1574670167174" MODIFIED="1574670168882"/>
 </node>
 <node TEXT="Displaying the Time Left" ID="ID_1223853790" CREATED="1574669553431" MODIFIED="1574669557348">
+<node TEXT="Now that we have a working hook that holds the time left as an object, and is being updated every second, now we can build out our display components.&#xa;&#xa;To do so, we&#x2019;re going to loop through the properties of the timeLeft object and add an element to our components array. Only if the timer interval has a value above zero, that is:" ID="ID_1880533662" CREATED="1574670394247" MODIFIED="1574670399296">
+<font BOLD="true"/>
+</node>
 <node TEXT="const timerComponents = [];&#xa;&#xa;Object.keys(timeLeft).forEach(interval =&gt; {&#xa;  if (!timeLeft[interval]) {&#xa;    return;&#xa;  }&#xa;&#xa;  timerComponents.push(&#xa;    &lt;span&gt;&#xa;      {timeLeft[interval]} {interval}{&quot; &quot;}&#xa;    &lt;/span&gt;&#xa;  );&#xa;});" ID="ID_1792001186" CREATED="1574670222556" MODIFIED="1574670223876"/>
 </node>
 <node TEXT="Putting it All Together" ID="ID_1848906989" CREATED="1574669562947" MODIFIED="1574669568081">
 <node TEXT="return (&#xa;  &lt;div&gt;&#xa;    {timerComponents.length ? timerComponents : &lt;span&gt;Time&apos;s up!&lt;/span&gt;}&#xa;  &lt;/div&gt;&#xa;);" ID="ID_1466101325" CREATED="1574670237400" MODIFIED="1574670240414"/>
-<node TEXT="demo" ID="ID_1381131086" CREATED="1574669594439" MODIFIED="1574669598330" LINK="https://codesandbox.io/s/funny-sinoussi-howyc"/>
+<node TEXT="demo" ID="ID_1381131086" CREATED="1574669594439" MODIFIED="1574670409414" LINK="https://codesandbox.io/s/funny-sinoussi-howyc">
+<font BOLD="true"/>
+</node>
 </node>
 </node>
 <node TEXT="links" POSITION="left" ID="ID_808607355" CREATED="1570968728188" MODIFIED="1570968728190">
