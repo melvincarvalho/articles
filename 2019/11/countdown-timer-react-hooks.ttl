@@ -4,12 +4,24 @@
 <#ID_1518855550> <urn:string:child> <ID_1518855550> .
 <#ID_962556769> <urn:string:@_TEXT> """Calculating How Much Time is Left""" .
 <#ID_962556769> <urn:string:child> <ID_962556769> .
+<#ID_1848900478> <urn:string:@_TEXT> """This method calculates the difference between the two dates""" .
+<#ID_1848900478> <urn:string:child> <ID_1848900478> .
+<#ID_1756193470> <urn:string:@_TEXT> """const calculateTimeLeft = () =&gt; {&#xa;  const difference = +new Date(&quot;2020-01-01&quot;) - +new Date();&#xa;  let timeLeft = {};&#xa;&#xa;  if (difference &gt; 0) {&#xa;    timeLeft = {&#xa;      days: Math.floor(difference / (1000 * 60 * 60 * 24)),&#xa;      hours: Math.floor((difference / (1000 * 60 * 60)) % 24),&#xa;      minutes: Math.floor((difference / 1000 / 60) % 60),&#xa;      seconds: Math.floor((difference / 1000) % 60)&#xa;    };&#xa;  }&#xa;&#xa;  return timeLeft;&#xa;};""" .
+<#ID_1756193470> <urn:string:child> <ID_1756193470> .
 <#ID_1580346473> <urn:string:@_TEXT> """Hooking Up the State and Effect""" .
 <#ID_1580346473> <urn:string:child> <ID_1580346473> .
+<#ID_258451495> <urn:string:@_TEXT> """The first line pulls out timeLeft which will carry our time left object of intervals and provide us with a method to set the state. On component load, the timeLeft value is set to the current time left value.&#xa;&#xa;The useEffect line is what updates the amount of time remaining. Every time that timeLeft is updated in the state, the useEffect fires. Every time that fires, we set a timer for 1 second (or 1,000ms) which after that time has elapsed, will update the time left.&#xa;&#xa;The cycle will continue every second thereafter.""" .
+<#ID_258451495> <urn:string:child> <ID_258451495> .
+<#ID_1047162089> <urn:string:@_TEXT> """const [timeLeft, setTimeLeft] = useState(calculateTimeLeft());&#xa;&#xa;useEffect(() =&gt; {&#xa;  setTimeout(() =&gt; {&#xa;    setTimeLeft(calculateTimeLeft());&#xa;  }, 1000);&#xa;});""" .
+<#ID_1047162089> <urn:string:child> <ID_1047162089> .
 <#ID_1223853790> <urn:string:@_TEXT> """Displaying the Time Left""" .
 <#ID_1223853790> <urn:string:child> <ID_1223853790> .
 <#ID_1848906989> <urn:string:@_TEXT> """Putting it All Together""" .
 <#ID_1848906989> <urn:string:child> <ID_1848906989> .
+<#ID_1466101325> <urn:string:@_TEXT> """return (&#xa;  &lt;div&gt;&#xa;    {timerComponents.length ? timerComponents : &lt;span&gt;Time&apos;s up!&lt;/span&gt;}&#xa;  &lt;/div&gt;&#xa;);""" .
+<#ID_1466101325> <urn:string:child> <ID_1466101325> .
+<#ID_1381131086> <urn:string:@_TEXT> """demo""" .
+<#ID_1381131086> <urn:string:child> <ID_1381131086> .
 <#ID_808607355> <urn:string:@_TEXT> """links""" .
 <#ID_147800645> <urn:string:@_TEXT> """countdown-timer-react-hooks""" .
 <#ID_147800645> <urn:string:child> <ID_147800645> .
