@@ -2,11 +2,12 @@
     "map": {
         "@_version": "freeplane 1.7.0",
         "node": {
-            "@_TEXT": "articles",
+            "@_TEXT": 2019,
+            "@_OBJECT": "java.lang.Long|2019",
             "@_FOLDED": false,
             "@_ID": "ID_358916900",
             "@_CREATED": 1570577334453,
-            "@_MODIFIED": 1574668806406,
+            "@_MODIFIED": 1574669750538,
             "@_STYLE": "oval",
             "font": {
                 "@_SIZE": 18
@@ -191,12 +192,12 @@
                 }
             ],
             "node": {
-                "@_TEXT": 2019,
-                "@_OBJECT": "java.lang.Long|2019",
+                "@_TEXT": 11,
+                "@_OBJECT": "java.lang.Long|11",
                 "@_POSITION": "right",
                 "@_ID": "ID_1591037151",
                 "@_CREATED": 1570577612951,
-                "@_MODIFIED": 1574669328693,
+                "@_MODIFIED": 1574669759764,
                 "@_LINK": "11/index.mm",
                 "edge": {
                     "@_COLOR": "#ff0000"
