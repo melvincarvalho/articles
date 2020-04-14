@@ -1,4 +1,4 @@
-<map version="freeplane 1.7.0">
+<map version="freeplane 1.8.0">
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
 <node TEXT="articles" FOLDED="false" ID="ID_358916900" CREATED="1570577334453" MODIFIED="1574668806406" STYLE="oval">
 <font SIZE="18"/>
@@ -63,9 +63,12 @@
 </stylenode>
 </map_styles>
 </hook>
-<hook NAME="AutomaticEdgeColor" COUNTER="1" RULE="ON_BRANCH_CREATION"/>
+<hook NAME="AutomaticEdgeColor" COUNTER="2" RULE="ON_BRANCH_CREATION"/>
 <node TEXT="2019" OBJECT="java.lang.Long|2019" POSITION="right" ID="ID_1591037151" CREATED="1570577612951" MODIFIED="1570577620069" LINK="2019/index.mm">
 <edge COLOR="#ff0000"/>
+</node>
+<node TEXT="2020" OBJECT="java.lang.Long|2020" POSITION="right" ID="ID_1321947090" CREATED="1586865625230" MODIFIED="1586865633433" LINK="2020/index.mm">
+<edge COLOR="#0000ff"/>
 </node>
 </node>
 </map>

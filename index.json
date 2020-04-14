@@ -1,6 +1,6 @@
 {
     "map": {
-        "@_version": "freeplane 1.7.0",
+        "@_version": "freeplane 1.8.0",
         "node": {
             "@_TEXT": "articles",
             "@_FOLDED": false,
@@ -186,22 +186,36 @@
                 },
                 {
                     "@_NAME": "AutomaticEdgeColor",
-                    "@_COUNTER": 1,
+                    "@_COUNTER": 2,
                     "@_RULE": "ON_BRANCH_CREATION"
                 }
             ],
-            "node": {
-                "@_TEXT": 2019,
-                "@_OBJECT": "java.lang.Long|2019",
-                "@_POSITION": "right",
-                "@_ID": "ID_1591037151",
-                "@_CREATED": 1570577612951,
-                "@_MODIFIED": 1570577620069,
-                "@_LINK": "2019/index.mm",
-                "edge": {
-                    "@_COLOR": "#ff0000"
+            "node": [
+                {
+                    "@_TEXT": 2019,
+                    "@_OBJECT": "java.lang.Long|2019",
+                    "@_POSITION": "right",
+                    "@_ID": "ID_1591037151",
+                    "@_CREATED": 1570577612951,
+                    "@_MODIFIED": 1570577620069,
+                    "@_LINK": "2019/index.mm",
+                    "edge": {
+                        "@_COLOR": "#ff0000"
+                    }
+                },
+                {
+                    "@_TEXT": 2020,
+                    "@_OBJECT": "java.lang.Long|2020",
+                    "@_POSITION": "right",
+                    "@_ID": "ID_1321947090",
+                    "@_CREATED": 1586865625230,
+                    "@_MODIFIED": 1586865633433,
+                    "@_LINK": "2020/index.mm",
+                    "edge": {
+                        "@_COLOR": "#0000ff"
+                    }
                 }
-            }
+            ]
         }
     }
 }
