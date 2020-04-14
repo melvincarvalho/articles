@@ -1,0 +1,452 @@
+{
+    "map": {
+        "@_version": "freeplane 1.8.0",
+        "node": {
+            "@_TEXT": "how to architect a nodejs project from the ground up",
+            "@_FOLDED": false,
+            "@_ID": "ID_1831615648",
+            "@_CREATED": 1569272472516,
+            "@_MODIFIED": 1571345636302,
+            "@_ICON_SIZE": "20.0 pt",
+            "@_LINK": "index.mm",
+            "@_STYLE": "oval",
+            "icon": {
+                "@_BUILTIN": "bookmark"
+            },
+            "font": {
+                "@_SIZE": 18
+            },
+            "hook": [
+                {
+                    "@_NAME": "MapStyle",
+                    "properties": {
+                        "@_edgeColorConfiguration": "#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff",
+                        "@_fit_to_viewport": false
+                    },
+                    "map_styles": {
+                        "stylenode": {
+                            "@_LOCALIZED_TEXT": "styles.root_node",
+                            "@_STYLE": "oval",
+                            "@_UNIFORM_SHAPE": true,
+                            "@_VGAP_QUANTITY": "24.0 pt",
+                            "font": {
+                                "@_SIZE": 24
+                            },
+                            "stylenode": [
+                                {
+                                    "@_LOCALIZED_TEXT": "styles.predefined",
+                                    "@_POSITION": "right",
+                                    "@_STYLE": "bubble",
+                                    "stylenode": [
+                                        {
+                                            "@_LOCALIZED_TEXT": "default",
+                                            "@_ICON_SIZE": "12.0 pt",
+                                            "@_COLOR": "#000000",
+                                            "@_STYLE": "fork",
+                                            "font": {
+                                                "@_NAME": "SansSerif",
+                                                "@_SIZE": 10,
+                                                "@_BOLD": false,
+                                                "@_ITALIC": false
+                                            }
+                                        },
+                                        {
+                                            "@_LOCALIZED_TEXT": "defaultstyle.details"
+                                        },
+                                        {
+                                            "@_LOCALIZED_TEXT": "defaultstyle.attributes",
+                                            "font": {
+                                                "@_SIZE": 9
+                                            }
+                                        },
+                                        {
+                                            "@_LOCALIZED_TEXT": "defaultstyle.note",
+                                            "@_COLOR": "#000000",
+                                            "@_BACKGROUND_COLOR": "#ffffff",
+                                            "@_TEXT_ALIGN": "LEFT"
+                                        },
+                                        {
+                                            "@_LOCALIZED_TEXT": "defaultstyle.floating",
+                                            "edge": {
+                                                "@_STYLE": "hide_edge"
+                                            },
+                                            "cloud": {
+                                                "@_COLOR": "#f0f0f0",
+                                                "@_SHAPE": "ROUND_RECT"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "@_LOCALIZED_TEXT": "styles.user-defined",
+                                    "@_POSITION": "right",
+                                    "@_STYLE": "bubble",
+                                    "stylenode": [
+                                        {
+                                            "@_LOCALIZED_TEXT": "styles.topic",
+                                            "@_COLOR": "#18898b",
+                                            "@_STYLE": "fork",
+                                            "font": {
+                                                "@_NAME": "Liberation Sans",
+                                                "@_SIZE": 10,
+                                                "@_BOLD": true
+                                            }
+                                        },
+                                        {
+                                            "@_LOCALIZED_TEXT": "styles.subtopic",
+                                            "@_COLOR": "#cc3300",
+                                            "@_STYLE": "fork",
+                                            "font": {
+                                                "@_NAME": "Liberation Sans",
+                                                "@_SIZE": 10,
+                                                "@_BOLD": true
+                                            }
+                                        },
+                                        {
+                                            "@_LOCALIZED_TEXT": "styles.subsubtopic",
+                                            "@_COLOR": "#669900",
+                                            "font": {
+                                                "@_NAME": "Liberation Sans",
+                                                "@_SIZE": 10,
+                                                "@_BOLD": true
+                                            }
+                                        },
+                                        {
+                                            "@_LOCALIZED_TEXT": "styles.important",
+                                            "icon": {
+                                                "@_BUILTIN": "yes"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "@_LOCALIZED_TEXT": "styles.AutomaticLayout",
+                                    "@_POSITION": "right",
+                                    "@_STYLE": "bubble",
+                                    "stylenode": [
+                                        {
+                                            "@_LOCALIZED_TEXT": "AutomaticLayout.level.root",
+                                            "@_COLOR": "#000000",
+                                            "@_STYLE": "oval",
+                                            "@_SHAPE_HORIZONTAL_MARGIN": "10.0 pt",
+                                            "@_SHAPE_VERTICAL_MARGIN": "10.0 pt",
+                                            "font": {
+                                                "@_SIZE": 18
+                                            }
+                                        },
+                                        {
+                                            "@_LOCALIZED_TEXT": "AutomaticLayout.level,1",
+                                            "@_COLOR": "#0033ff",
+                                            "font": {
+                                                "@_SIZE": 16
+                                            }
+                                        },
+                                        {
+                                            "@_LOCALIZED_TEXT": "AutomaticLayout.level,2",
+                                            "@_COLOR": "#00b439",
+                                            "font": {
+                                                "@_SIZE": 14
+                                            }
+                                        },
+                                        {
+                                            "@_LOCALIZED_TEXT": "AutomaticLayout.level,3",
+                                            "@_COLOR": "#990000",
+                                            "font": {
+                                                "@_SIZE": 12
+                                            }
+                                        },
+                                        {
+                                            "@_LOCALIZED_TEXT": "AutomaticLayout.level,4",
+                                            "@_COLOR": "#111111",
+                                            "font": {
+                                                "@_SIZE": 10
+                                            }
+                                        },
+                                        {
+                                            "@_LOCALIZED_TEXT": "AutomaticLayout.level,5"
+                                        },
+                                        {
+                                            "@_LOCALIZED_TEXT": "AutomaticLayout.level,6"
+                                        },
+                                        {
+                                            "@_LOCALIZED_TEXT": "AutomaticLayout.level,7"
+                                        },
+                                        {
+                                            "@_LOCALIZED_TEXT": "AutomaticLayout.level,8"
+                                        },
+                                        {
+                                            "@_LOCALIZED_TEXT": "AutomaticLayout.level,9"
+                                        },
+                                        {
+                                            "@_LOCALIZED_TEXT": "AutomaticLayout.level,10"
+                                        },
+                                        {
+                                            "@_LOCALIZED_TEXT": "AutomaticLayout.level,11"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "@_NAME": "AutomaticEdgeColor",
+                    "@_COUNTER": 5,
+                    "@_RULE": "ON_BRANCH_CREATION"
+                }
+            ],
+            "node": [
+                {
+                    "@_TEXT": "Summary",
+                    "@_POSITION": "right",
+                    "@_ID": "ID_1226961462",
+                    "@_CREATED": 1570979963389,
+                    "@_MODIFIED": 1570980209554,
+                    "@_COLOR": "#3333ff",
+                    "icon": {
+                        "@_BUILTIN": "wizard"
+                    },
+                    "font": {
+                        "@_SIZE": 11,
+                        "@_BOLD": true
+                    },
+                    "edge": {
+                        "@_COLOR": "#0000ff"
+                    }
+                },
+                {
+                    "@_TEXT": "Details",
+                    "@_POSITION": "right",
+                    "@_ID": "ID_120250381",
+                    "@_CREATED": 1570979967089,
+                    "@_MODIFIED": 1570980228711,
+                    "icon": {
+                        "@_BUILTIN": "list"
+                    },
+                    "edge": {
+                        "@_COLOR": "#00ff00"
+                    },
+                    "font": {
+                        "@_BOLD": true
+                    },
+                    "node": [
+                        {
+                            "@_TEXT": "Folder Structure",
+                            "@_ID": "ID_1765196735",
+                            "@_CREATED": 1586858097414,
+                            "@_MODIFIED": 1586858100770,
+                            "node": [
+                                {
+                                    "@_TEXT": "api",
+                                    "@_ID": "ID_1751018557",
+                                    "@_CREATED": 1586858188830,
+                                    "@_MODIFIED": 1586858190284,
+                                    "node": {
+                                        "@_TEXT": "routes",
+                                        "@_ID": "ID_522757047",
+                                        "@_CREATED": 1586858282647,
+                                        "@_MODIFIED": 1586858284231
+                                    }
+                                },
+                                {
+                                    "@_TEXT": "configs",
+                                    "@_ID": "ID_676156506",
+                                    "@_CREATED": 1586858191165,
+                                    "@_MODIFIED": 1586858192861
+                                },
+                                {
+                                    "@_TEXT": "models",
+                                    "@_ID": "ID_337800156",
+                                    "@_CREATED": 1586858198555,
+                                    "@_MODIFIED": 1586858200307
+                                },
+                                {
+                                    "@_TEXT": "services",
+                                    "@_ID": "ID_158295187",
+                                    "@_CREATED": 1586858201022,
+                                    "@_MODIFIED": 1586858204928
+                                },
+                                {
+                                    "@_TEXT": "subscribers",
+                                    "@_ID": "ID_415661580",
+                                    "@_CREATED": 1586858205578,
+                                    "@_MODIFIED": 1586858208581
+                                },
+                                {
+                                    "@_TEXT": "app.js",
+                                    "@_ID": "ID_135579549",
+                                    "@_CREATED": 1586858220136,
+                                    "@_MODIFIED": 1586858221799
+                                },
+                                {
+                                    "@_TEXT": "server.js",
+                                    "@_ID": "ID_1372176668",
+                                    "@_CREATED": 1586858225533,
+                                    "@_MODIFIED": 1586858227512
+                                },
+                                {
+                                    "@_TEXT": "package.json",
+                                    "@_ID": "ID_1808945369",
+                                    "@_CREATED": 1586858231351,
+                                    "@_MODIFIED": 1586858236948
+                                },
+                                {
+                                    "@_TEXT": "readme.md",
+                                    "@_ID": "ID_768883358",
+                                    "@_CREATED": 1586858238517,
+                                    "@_MODIFIED": 1586858241694
+                                }
+                            ]
+                        },
+                        {
+                            "@_TEXT": "Configuring Environment Variables",
+                            "@_ID": "ID_1770694131",
+                            "@_CREATED": 1586858105928,
+                            "@_MODIFIED": 1586858119319,
+                            "node": [
+                                {
+                                    "@_TEXT": "dotenv",
+                                    "@_ID": "ID_163973492",
+                                    "@_CREATED": 1586858366194,
+                                    "@_MODIFIED": 1586858472621,
+                                    "@_LINK": "https://www.npmjs.com/package/dotenv"
+                                },
+                                {
+                                    "@_TEXT": ".env",
+                                    "@_ID": "ID_1670052207",
+                                    "@_CREATED": 1586858370978,
+                                    "@_MODIFIED": 1586858374190
+                                }
+                            ]
+                        },
+                        {
+                            "@_TEXT": "MVC Pattern",
+                            "@_ID": "ID_1725394372",
+                            "@_CREATED": 1586858123701,
+                            "@_MODIFIED": 1586865189602,
+                            "@_LINK": "https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller"
+                        },
+                        {
+                            "@_TEXT": "Layered Architecture",
+                            "@_ID": "ID_1471607402",
+                            "@_CREATED": 1586858131235,
+                            "@_MODIFIED": 1586858136428,
+                            "node": [
+                                {
+                                    "@_TEXT": "Controller",
+                                    "@_ID": "ID_668309755",
+                                    "@_CREATED": 1586865234561,
+                                    "@_MODIFIED": 1586865237390
+                                },
+                                {
+                                    "@_TEXT": "Service Layer",
+                                    "@_ID": "ID_202126141",
+                                    "@_CREATED": 1586865238120,
+                                    "@_MODIFIED": 1586865254509
+                                },
+                                {
+                                    "@_TEXT": "Data Access Layer",
+                                    "@_ID": "ID_1400549897",
+                                    "@_CREATED": 1586865258444,
+                                    "@_MODIFIED": 1586865262663
+                                }
+                            ]
+                        },
+                        {
+                            "@_TEXT": "Encapsulating Configurations",
+                            "@_ID": "ID_366892532",
+                            "@_CREATED": 1586858140934,
+                            "@_MODIFIED": 1586858148156,
+                            "node": {
+                                "@_TEXT": "Put in config folder",
+                                "@_ID": "ID_567001944",
+                                "@_CREATED": 1586865364019,
+                                "@_MODIFIED": 1586865370888
+                            }
+                        }
+                    ]
+                },
+                {
+                    "@_TEXT": "done",
+                    "@_LOCALIZED_STYLE_REF": "AutomaticLayout.level,2",
+                    "@_POSITION": "left",
+                    "@_ID": "ID_1835807969",
+                    "@_CREATED": 1570968728183,
+                    "@_MODIFIED": 1571345195088,
+                    "icon": {
+                        "@_BUILTIN": "button_ok"
+                    },
+                    "edge": {
+                        "@_COLOR": "#00ffff"
+                    }
+                },
+                {
+                    "@_TEXT": "links",
+                    "@_POSITION": "left",
+                    "@_ID": "ID_808607355",
+                    "@_CREATED": 1570968728188,
+                    "@_MODIFIED": 1570968728190,
+                    "icon": {
+                        "@_BUILTIN": "attach"
+                    },
+                    "edge": {
+                        "@_COLOR": "#00007c"
+                    },
+                    "node": {
+                        "@_ID": "ID_1317857751",
+                        "@_CREATED": 1586858045473,
+                        "@_MODIFIED": 1586858045473,
+                        "@_LINK": "https://blog.soshace.com/how-to-architect-a-node-js-project-from-ground-up/",
+                        "richcontent": {
+                            "@_TYPE": "NODE",
+                            "html": {
+                                "head": "",
+                                "body": {
+                                    "#text": "&nbsp;",
+                                    "a": {
+                                        "#text": "https://blog.soshace.com/how-to-architect-a-node-js-project-from-ground-up/",
+                                        "@_http-equiv": "content-type",
+                                        "@_content": "text/html; charset=utf-8",
+                                        "@_href": "https://blog.soshace.com/how-to-architect-a-node-js-project-from-ground-up/"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                {
+                    "@_TEXT": "docs",
+                    "@_POSITION": "left",
+                    "@_ID": "ID_1100215200",
+                    "@_CREATED": 1570969039178,
+                    "@_MODIFIED": 1570980265221,
+                    "icon": {
+                        "@_BUILTIN": "folder"
+                    },
+                    "edge": {
+                        "@_COLOR": "#ff00ff"
+                    }
+                },
+                {
+                    "@_TEXT": "tags",
+                    "@_POSITION": "left",
+                    "@_ID": "ID_466759422",
+                    "@_CREATED": 1570968754383,
+                    "@_MODIFIED": 1571340239144,
+                    "icon": {
+                        "@_BUILTIN": "hashtag"
+                    },
+                    "edge": {
+                        "@_COLOR": "#007c00"
+                    },
+                    "node": {
+                        "@_TEXT": "nodejs",
+                        "@_ID": "ID_200654979",
+                        "@_CREATED": 1586865078045,
+                        "@_MODIFIED": 1586865080078
+                    }
+                }
+            ]
+        }
+    }
+}

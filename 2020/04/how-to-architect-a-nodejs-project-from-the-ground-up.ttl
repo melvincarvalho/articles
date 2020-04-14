@@ -1,0 +1,44 @@
+<#ID_1226961462> <urn:string:@_TEXT> """Summary""" .
+<#ID_120250381> <urn:string:@_TEXT> """Details""" .
+<#ID_1765196735> <urn:string:@_TEXT> """Folder Structure""" .
+<#ID_1765196735> <urn:string:child> <ID_1765196735> .
+<#ID_1751018557> <urn:string:@_TEXT> """api""" .
+<#ID_1751018557> <urn:string:child> <ID_1751018557> .
+<#ID_676156506> <urn:string:@_TEXT> """configs""" .
+<#ID_676156506> <urn:string:child> <ID_676156506> .
+<#ID_337800156> <urn:string:@_TEXT> """models""" .
+<#ID_337800156> <urn:string:child> <ID_337800156> .
+<#ID_158295187> <urn:string:@_TEXT> """services""" .
+<#ID_158295187> <urn:string:child> <ID_158295187> .
+<#ID_415661580> <urn:string:@_TEXT> """subscribers""" .
+<#ID_415661580> <urn:string:child> <ID_415661580> .
+<#ID_135579549> <urn:string:@_TEXT> """app.js""" .
+<#ID_135579549> <urn:string:child> <ID_135579549> .
+<#ID_1372176668> <urn:string:@_TEXT> """server.js""" .
+<#ID_1372176668> <urn:string:child> <ID_1372176668> .
+<#ID_1808945369> <urn:string:@_TEXT> """package.json""" .
+<#ID_1808945369> <urn:string:child> <ID_1808945369> .
+<#ID_768883358> <urn:string:@_TEXT> """readme.md""" .
+<#ID_768883358> <urn:string:child> <ID_768883358> .
+<#ID_1770694131> <urn:string:@_TEXT> """Configuring Environment Variables""" .
+<#ID_1770694131> <urn:string:child> <ID_1770694131> .
+<#ID_163973492> <urn:string:@_TEXT> """dotenv""" .
+<#ID_163973492> <urn:string:child> <ID_163973492> .
+<#ID_1670052207> <urn:string:@_TEXT> """.env""" .
+<#ID_1670052207> <urn:string:child> <ID_1670052207> .
+<#ID_1725394372> <urn:string:@_TEXT> """MVC Pattern""" .
+<#ID_1725394372> <urn:string:child> <ID_1725394372> .
+<#ID_1471607402> <urn:string:@_TEXT> """Layered Architecture""" .
+<#ID_1471607402> <urn:string:child> <ID_1471607402> .
+<#ID_668309755> <urn:string:@_TEXT> """Controller""" .
+<#ID_668309755> <urn:string:child> <ID_668309755> .
+<#ID_202126141> <urn:string:@_TEXT> """Service Layer""" .
+<#ID_202126141> <urn:string:child> <ID_202126141> .
+<#ID_1400549897> <urn:string:@_TEXT> """Data Access Layer""" .
+<#ID_1400549897> <urn:string:child> <ID_1400549897> .
+<#ID_366892532> <urn:string:@_TEXT> """Encapsulating Configurations""" .
+<#ID_366892532> <urn:string:child> <ID_366892532> .
+<#ID_1835807969> <urn:string:@_TEXT> """done""" .
+<#ID_808607355> <urn:string:@_TEXT> """links""" .
+<#ID_1100215200> <urn:string:@_TEXT> """docs""" .
+<#ID_466759422> <urn:string:@_TEXT> """tags""" .
